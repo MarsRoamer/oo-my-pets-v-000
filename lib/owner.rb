@@ -2,7 +2,7 @@ class Owner
   require 'pry'
 
   attr_accessor :name, :species
-  attr_writer 
+  attr_writer
 
   @@owners = []
   @@owner_count = 0
