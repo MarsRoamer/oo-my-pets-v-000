@@ -56,7 +56,8 @@ class Owner
 
   def sell_pets
     self.pets.each do |type|
-      type.to_str.each do |element|
+      type.each do |element|
+        binding.pry
         element.mood = 'nervous'
       end
     end
