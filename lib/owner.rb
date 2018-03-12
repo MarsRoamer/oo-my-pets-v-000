@@ -7,15 +7,9 @@ class Owner
   @@owners = []
   @@owner_count = 0
 
-  def initialize(name)
-    @name = name
+  def initialize(species)
+    @species = species
     @@owners << self
-  end
-
-  def species(species)
-    self.species = species
-    binding.pry
-
   end
 
   def self.all
