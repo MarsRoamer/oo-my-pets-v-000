@@ -33,7 +33,7 @@ class Owner
   def buy_fish(fish)
     Fish.new(fish)
     self.pets[:fishes] = fish
-  
+
 
   end
 
