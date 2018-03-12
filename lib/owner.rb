@@ -62,7 +62,7 @@ class Owner
 
       end
     end
-    reset_all
+    self.reset_all
   end
 
 end
