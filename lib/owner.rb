@@ -1,8 +1,8 @@
 class Owner
   require 'pry'
 
-  attr_accessor :name
-  attr_writer :species
+  attr_accessor :name, :species
+  attr_writer 
 
   @@owners = []
   @@owner_count = 0
@@ -29,6 +29,10 @@ class Owner
   def self.reset_all
     @@owners = []
     @@owners.count
+  end
+
+  def say_species
+    self.species
   end
 
 end
