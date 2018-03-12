@@ -62,6 +62,7 @@ class Owner
 
       end
     end
+    self.reset_all
   end
 
 end
