@@ -58,7 +58,7 @@ class Owner
     pets.each do |type|
       type.each do |element|
 
-        element.mood = 'nervous'
+        type.mood = 'nervous'
         binding.pry
       end
     end
